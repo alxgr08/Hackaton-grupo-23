@@ -35,7 +35,8 @@
                 <a href="#home" class="nav__link">About</a>
               </li>
               <li class="nav__item">
-                <a href="#integrantes" class="nav__link">Team</a>
+                <!-- antes decía #integrantes, pero la sección es #team -->
+                <a href="#team" class="nav__link">Team</a>
               </li>
             </ul>
           </div>
@@ -51,14 +52,8 @@
                 Discover the power of version control and collaboration
               </p>
               <div class="hero__actions">
-                <a href="#home" class="hero__button hero__button--primary"
-                  >Learn More</a
-                >
-                <a
-                  href="#integrantes"
-                  class="hero__button hero__button--secondary"
-                  >Meet the Team</a
-                >
+                <a href="#home" class="hero__button hero__button--primary">Learn More</a>
+                <a href="#team" class="hero__button hero__button--secondary">Meet the Team</a>
               </div>
             </div>
             <div class="hero__visual">
@@ -131,10 +126,9 @@
             </div>
 
             <div class="team__grid">
-              <!-- Aquí reemplazar con tus datos personales -->
+              <!-- ===== Tarjeta 1: Matías Amaya Ruiz ===== -->
               <div class="team-card">
                 <div class="team-card__image">
-                  <!-- Aquí tu foto de perfil (puedes usar una URL de tu GitHub o cualquier imagen) -->
                   <img
                     src="https://media.licdn.com/dms/image/v2/D4D03AQEgPWjLToL3xg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1727205816639?e=1759363200&v=beta&t=87XRbjhmU0N9vEGTNxoZd1vhYHOsjGpWJHOFhUGomHg"
                     alt="Matías Amaya Ruiz"
@@ -142,28 +136,59 @@
                   />
                 </div>
                 <div class="team-card__content">
-                  <!-- Aquí tu nombre completo -->
                   <h3 class="team-card__name">Matías Amaya Ruiz</h3>
-                  <!-- Aquí tu especialidad o rol (ej: Frontend Developer, Backend Developer, etc.) -->
                   <p class="team-card__role">Soporte y Organización del equipo</p>
                   <div class="team-card__social">
-                    <!-- Aquí tu link de GitHub (reemplaza el # con tu URL) -->
                     <a
                       href="https://github.com/MatiAmaya"
                       class="team-card__social-link team-card__social-link--github"
+                      target="_blank" rel="noopener noreferrer"
                     >
                       <i class="fab fa-github"></i>
                     </a>
-                    <!-- Aquí tu link de LinkedIn (reemplaza el # con tu URL) -->
                     <a
                       href="https://www.linkedin.com/in/matias-amaya-ruiz-b3445432b"
                       class="team-card__social-link team-card__social-link--linkedin"
+                      target="_blank" rel="noopener noreferrer"
                     >
                       <i class="fab fa-linkedin"></i>
                     </a>
                   </div>
                 </div>
               </div>
+
+              <!-- ===== Tarjeta 2: Alexis Gil Rojas ===== -->
+              <div class="team-card">
+                <div class="team-card__image">
+                  <img
+                    src="https://upload.wikimedia.org/wikipedia/commons/3/3a/Cat03.jpg"
+                    alt="Alexis Gil Rojas"
+                    class="team-card__photo"
+                  />
+                </div>
+                <div class="team-card__content">
+                  <h3 class="team-card__name">Alexis Gil Rojas</h3>
+                  <p class="team-card__role">Estudiante de C.S</p>
+                  <div class="team-card__social">
+                    <a
+                      href="https://github.com/alxgr08"
+                      class="team-card__social-link team-card__social-link--github"
+                      target="_blank" rel="noopener noreferrer"
+                    >
+                      <i class="fab fa-github"></i>
+                    </a>
+                    <a
+                      href="https://www.linkedin.com/in/diego-alexis-undefined-7bb22923b/"
+                      class="team-card__social-link team-card__social-link--linkedin"
+                      target="_blank" rel="noopener noreferrer"
+                    >
+                      <i class="fab fa-linkedin"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <!-- (Agrega más tarjetas aquí para otros integrantes) -->
             </div>
           </div>
         </section>
@@ -177,11 +202,11 @@
               <p class="footer__tagline">Learning Git & GitHub together</p>
             </div>
             <div class="footer__links">
-              <a href="https://github.com" class="footer__link">
+              <a href="https://github.com" class="footer__link" target="_blank" rel="noopener noreferrer">
                 <i class="fab fa-github"></i>
                 GitHub
               </a>
-              <a href="https://git-scm.com" class="footer__link">
+              <a href="https://git-scm.com" class="footer__link" target="_blank" rel="noopener noreferrer">
                 <i class="fab fa-git-alt"></i>
                 Git
               </a>
